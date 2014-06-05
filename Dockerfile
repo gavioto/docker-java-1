@@ -1,5 +1,3 @@
-# Dockerfile for the Typesafe Activator platform
-
 FROM dockerfile/ubuntu
 MAINTAINER James Duncan Davidson <duncan@jdd.io>
 
