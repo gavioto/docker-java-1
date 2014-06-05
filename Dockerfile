@@ -8,4 +8,6 @@ RUN \
   apt-get update && \
   apt-get install -y oracle-java8-installer oracle-java8-set-default
 
+ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
+
 CMD ["java", "-version"]
